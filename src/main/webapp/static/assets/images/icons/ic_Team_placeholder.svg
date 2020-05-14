@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="22px" viewBox="0 0 38 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53 (72520) - https://sketchapp.com -->
+    <title>B979DCF8-4A7C-4E10-8234-22BCB3A7655C</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Members-and-Teams" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Admin_Teams-Detail" transform="translate(-942.000000, -124.000000)" fill-rule="nonzero">
+            <g id="Group-7">
+                <g id="Header" transform="translate(894.000000, 0.000000)">
+                    <g id="Team-placeholder" transform="translate(30.000000, 98.000000)">
+                        <g id="ic_Team_placeholder" transform="translate(17.000000, 25.000000)">
+                            <g id="ic_contact-copy" opacity="0.5" transform="translate(20.000000, 2.000000)">
+                                <rect id="Rectangle" fill="#000000" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                                <path d="M2.00025401,18 L17.999746,18 C17.9652959,14.4317586 14.4309218,11.4736842 10,11.4736842 C5.56907818,11.4736842 2.03470407,14.4317586 2.00025401,18 Z M9.69565217,8 C11.3525064,8 12.6956522,6.65685425 12.6956522,5 C12.6956522,3.34314575 11.3525064,2 9.69565217,2 C8.03879792,2 6.69565217,3.34314575 6.69565217,5 C6.69565217,6.65685425 8.03879792,8 9.69565217,8 Z" id="ic_contacts" stroke="#FFFFFF" stroke-width="2"></path>
+                            </g>
+                            <g id="ic_contact-copy-2" opacity="0.5" transform="translate(0.000000, 2.000000)">
+                                <rect id="Rectangle" fill="#000000" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                                <path d="M2.00025401,18 L17.999746,18 C17.9652959,14.4317586 14.4309218,11.4736842 10,11.4736842 C5.56907818,11.4736842 2.03470407,14.4317586 2.00025401,18 Z M9.69565217,8 C11.3525064,8 12.6956522,6.65685425 12.6956522,5 C12.6956522,3.34314575 11.3525064,2 9.69565217,2 C8.03879792,2 6.69565217,3.34314575 6.69565217,5 C6.69565217,6.65685425 8.03879792,8 9.69565217,8 Z" id="ic_contacts" stroke="#FFFFFF" stroke-width="2"></path>
+                            </g>
+                            <g id="ic_contact" transform="translate(8.000000, 0.000000)">
+                                <rect id="Rectangle" fill="#000000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                                <path d="M2.40030481,21.6 L21.5996952,21.6 C21.5583551,17.3181103 17.3171062,13.7684211 12,13.7684211 C6.68289382,13.7684211 2.44164488,17.3181103 2.40030481,21.6 Z M11.6347826,9.6 C13.6230077,9.6 15.2347826,7.9882251 15.2347826,6 C15.2347826,4.0117749 13.6230077,2.4 11.6347826,2.4 C9.64655751,2.4 8.03478261,4.0117749 8.03478261,6 C8.03478261,7.9882251 9.64655751,9.6 11.6347826,9.6 Z" id="ic_contacts" stroke="#FFFFFF" stroke-width="2.4"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+@import "../../assets/styles/variables.scss";
+
+// .cke_top {
+//   border: none !important;
+//   background-color: #3e3c3c !important;
+//   border-radius: 4px 4px 0 0 !important;
+// }
+
+.cke_chrome,
+.cke_editable,
+.cke_reset {
+  border: none;
+  background-color: #F3F8FA;
+  border-radius: 0 0 4px 4px;
+  outline: none !important;
+  min-height: 500px;
+}

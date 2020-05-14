@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="50px" viewBox="0 0 60 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>8212D8AF-3696-493C-9786-538D4ADDDCEB</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="One-Rule-Multiple-Conditions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Administrator_Setup" transform="translate(-350.000000, -219.000000)">
+            <g id="1.-Custom-field-setup" transform="translate(239.000000, 184.000000)">
+                <g id="ic_company-profile" transform="translate(111.000000, 37.000000)">
+                    <g id="Group-3">
+                        <rect id="Rectangle" stroke="#0155FF" stroke-width="3" fill="#C5D7FC" x="40.5" y="28" width="16.5" height="18"></rect>
+                        <rect id="Rectangle" fill="#0052FF" x="0" y="44" width="60" height="4"></rect>
+                        <rect id="Rectangle-Copy" stroke="#0155FF" stroke-width="3" fill="#C5D7FC" x="2" y="22" width="16.5" height="24"></rect>
+                        <path d="M31.8375,0 L31.8375,8.3875 L42.15,8.3875 L42.15,46.45 L36.374,46.45 L36.375,33.55 L22.625,33.55 L22.624,46.45 L16.85,46.45 L16.85,8.3875 L27.1625,8.3875 L27.1625,0 L31.8375,0 Z M31.8375,24.75 L27.1625,24.75 L27.1625,29.425 L31.8375,29.425 L31.8375,24.75 Z M31.8375,15.3976625 L27.1625,15.3976625 L27.1625,20.075 L31.8375,20.075 L31.8375,15.3976625 Z" id="ic_company" stroke="#0155FF" stroke-width="2.75" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

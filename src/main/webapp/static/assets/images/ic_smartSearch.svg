@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="144px" viewBox="0 0 144 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>017A90A3-9B10-41EA-81DA-9C4F2821BED8</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+        <filter x="-115.8%" y="-97.5%" width="331.7%" height="331.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="11" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Home-screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Feature-2_v2" transform="translate(-804.000000, -204.000000)">
+            <g id="2.-Feature">
+                <g id="1" transform="translate(113.000000, 74.000000)">
+                    <g id="content" transform="translate(733.000000, 161.000000)">
+                        <g id="ic_smartSearch">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Oval">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                                <circle stroke="#FFFFFF" stroke-width="4" fill="#F6F6F6" fill-rule="evenodd" cx="30" cy="30" r="32"></circle>
+                            </g>
+                            <path d="M44.755102,42.1836735 L38.2806122,35.6632653 C39.7959184,33.6428571 40.7142857,31.0714286 40.7142857,28.3163265 C40.7142857,21.4744898 35.1581633,15.9183673 28.3163265,15.9183673 C21.4744898,15.9183673 15.9183673,21.4744898 15.9183673,28.3163265 C15.9183673,35.1581633 21.4744898,40.7142857 28.3163265,40.7142857 C31.0714286,40.7142857 33.6428571,39.7959184 35.6632653,38.2806122 L42.1377551,44.755102 C42.872449,45.4897959 44.0204082,45.4897959 44.755102,44.755102 C45.4897959,44.0663265 45.4897959,42.872449 44.755102,42.1836735 Z M28.3163265,37.0408163 C23.494898,37.0408163 19.5918367,33.1377551 19.5918367,28.3163265 C19.5918367,23.494898 23.494898,19.5918367 28.3163265,19.5918367 C33.1377551,19.5918367 37.0408163,23.494898 37.0408163,28.3163265 C37.0408163,33.1377551 33.1377551,37.0408163 28.3163265,37.0408163 Z M30.6122449,23.7244898 C30.6122449,25.0102041 29.6020408,26.0204082 28.3163265,26.0204082 C27.0306122,26.0204082 26.0204082,25.0102041 26.0204082,23.7244898 C26.0204082,22.4387755 27.0306122,21.4285714 28.3163265,21.4285714 C29.6020408,21.4285714 30.6122449,22.4387755 30.6122449,23.7244898 Z" id="ic_smart-search" fill="#0155FF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

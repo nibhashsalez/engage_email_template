@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>015A63D5-87AE-4ACB-8040-6EA2B80AF158</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40" rx="4"></rect>
+    </defs>
+    <g id="Home-screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DG_Home_New-landing_11" transform="translate(-1203.000000, -2994.000000)">
+            <g id="Footer" transform="translate(0.000000, 2994.000000)">
+                <g id="up-arrow-copy" transform="translate(1223.000000, 20.000000) rotate(-90.000000) translate(-1223.000000, -20.000000) translate(1203.000000, 0.000000)">
+                    <g id="Rectangle-9">
+                        <use fill="#1E2533" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#8D95A5" stroke-width="1" x="0.5" y="0.5" width="39" height="39" rx="4"></rect>
+                    </g>
+                    <path d="M31.4826667,21.1740711 C32.136,20.5254044 32.132,19.4720711 31.4773333,18.8254044 L20.942,8.41473772 C19.6853333,7.15740439 17.8,9.04273772 19.0573333,10.3000711 L26.972,18.2160711 C27.2346667,18.4780711 27.148,18.6907377 26.7806667,18.6907377 L9.33333333,18.6907377 C8.59666667,18.6907377 8,19.2874044 8,20.0240711 C8,20.7600711 8.59666667,21.3574044 9.33333333,21.3574044 L26.7806667,21.3574044 C27.1486667,21.3574044 27.24,21.5647377 26.972,21.8327377 L19.0573333,29.7480711 C17.8,31.0047377 19.6853333,32.8907377 20.942,31.6334044 L31.4826667,21.1740711 Z" id="Fill-1" fill="#8D95A5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

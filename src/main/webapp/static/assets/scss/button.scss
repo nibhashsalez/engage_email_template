@@ -1,0 +1,74 @@
+@import 'variables';
+._btn {
+  min-width: 110px !important;
+  font-size: $size13 !important;
+  font-weight: 700 !important;
+  line-height: 19px !important;
+  border-radius: 19px !important;
+  font-family: $sohoGothicProMedium !important;
+  height: 38px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  border: 1px solid transparent;
+}
+
+.mat-button-wrapper {
+  font-family: $sohoGothicProMedium !important;
+}
+.forgotButton {
+  .mat-button-wrapper {
+    position: relative;
+    top: -2px;
+    font-family: $sohoGothicPro;
+  }
+}
+
+.bg-blue {
+  background: $color-0155ff !important;
+  border: 1px solid $color-0155ff !important;
+}
+
+.text-white {
+  color: $color-ffffff !important;
+}
+
+.bg-blue-hoverEffect:hover {
+  background: $color-ffffff !important;
+  color: $color-0155ff !important;
+}
+.btn-outline-success {
+  color: $color-0155ff;
+  background-color: transparent;
+  background-image: none;
+  border-color: $color-0155ff;
+  border-radius: 25px !important;
+  font-size: $size-875Rem !important;
+  &:focus{
+    box-shadow: none;
+  }
+  &:hover {
+    background-color: $color-0155ff;
+    color: $color-ffffff !important;
+  }
+  &:disabled {
+    color: $color-f0f6ff;
+    background-color: $color-0155ff;
+    opacity: 0.4;
+  }
+}
+.btn-outline-no {
+  color: $color-d0021b;
+  background-color: transparent;
+  background-image: none;
+  border-color: $color-d0021b;
+  border-radius: 25px !important;
+  font-size: $size-875Rem !important;
+  &:focus{
+    box-shadow: none;
+  }
+  &:hover {
+    background-color: $color-d0021b;
+    color: $color-ffffff !important;
+  }
+}

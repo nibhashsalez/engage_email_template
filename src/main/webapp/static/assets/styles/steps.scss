@@ -1,0 +1,167 @@
+@import "../../assets/styles/variables.scss";
+
+body {
+  .importSteps {
+    .ui-steps {
+      .ui-steps-item {
+        width: 33.333%;
+        &.ui-state-disabled {
+          opacity: 1;
+        }
+        .ui-menuitem-link {
+          padding: 0;
+          overflow: visible;
+          .ui-steps-number {
+            border: 0.75px solid $color-0155ff;
+            height: 30px;
+            width: 30px;
+            line-height: 30px;
+            top: 2px;
+            box-shadow: 0 3px 6px 0 #F6F2F2;
+            color: $color-0155ff;
+            font-size: $font12;
+            font-weight: $font-weight--bold;
+          }
+          .ui-steps-title {
+            color: $blue-subTitle;
+            font-size: $font12;
+            font-weight: $font-weight--bold;
+            line-height: 14px;
+            // text-transform: uppercase;
+            position: absolute;
+            left: -25px;
+            top: 42px;
+            min-width: 90px;
+            letter-spacing: 1.71px;
+          }
+        }
+        &:nth-child(1) {
+          text-align: left;
+          .ui-menuitem-link {
+            text-align: center;
+          }
+        }
+        &:nth-child(2) {
+          text-align: center;
+          .ui-menuitem-link {
+            text-align: center;
+          }
+        }
+        &:nth-child(3) {
+          text-align: right;
+          .ui-menuitem-link {
+            text-align: right;
+            .ui-steps-title {
+              right: -25px;
+            }
+          }
+        }
+
+        &.ui-state-highlight {
+          .ui-steps-number {
+            background-color: $color-0155ff;
+            box-shadow: 0 2px 4px 0 #F6F2F2;
+            border: 0.5px solid $color-0155ff;
+          }
+          .ui-steps-title {
+            color: $color-0155ff;
+          }
+        }
+      }
+    }
+
+    &.csvSteps {
+      .ui-steps-item {
+        width:33.33% !important;
+        &.ui-state-complete {
+          .ui-menuitem-link {
+            .ui-steps-number {
+              background-color: #7ed321;
+              color: #fff;
+              border-color: #7ed321;
+            }
+          }
+        }
+
+        &:nth-child(3) {
+          text-align: center;
+          padding-left: 118px;
+          .ui-menuitem-link {
+            text-align: center;
+            .ui-steps-title {
+              right: -25px;
+            }
+          }
+        }
+        // &:nth-child(4) {
+        //   text-align: right;
+        //   .ui-menuitem-link {
+        //     text-align: right;
+        //     .ui-steps-title {
+        //       right: -25px;
+        //     }
+        //   }
+        // }
+      }
+    }
+  }
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+
+
+@media screen and (max-width: 767px){
+  body .stepInnerBox .ui-steps ul li:nth-child(3){
+      padding-left: 0px !important;
+  }
+  body .importSteps .ui-steps .ui-steps-item:nth-child(3) .ui-menuitem-link{
+    text-align: right;
+  }
+  body .importSteps.csvSteps .ui-steps-item:nth-child(3) .ui-menuitem-link .ui-steps-title {
+    right: 0;
+  }
+  body .ui-dialog{
+    padding: 0px 30px !important;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .stepInnerBox .csvSteps{
+    width: 62% !important;
+  }
+  .stepsFooter{
+    text-align: center;
+    input{
+      float: none !important;
+    }
+  }
+}

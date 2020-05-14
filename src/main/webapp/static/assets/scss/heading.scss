@@ -1,0 +1,42 @@
+@import 'variables';
+._mainHeading {
+  color: $color-1e2533;
+  font-family: $sohoGothicPro;
+  font-weight: 700;
+  line-height: 55px;
+  font-size: $size2-125remRem;
+}
+
+.subHeading {
+  color: $color-1e2533;
+  font-family: $sohoGothicPro;
+  font-size: $size1Rem;
+  line-height: 24px;
+  text-align: left;
+  position: relative;
+}
+
+._sub2Heading {
+  color: $color-1e2533 !important;
+  font-size: $size1-125Rem !important;
+  font-weight: bold !important;
+}
+
+._paraText {
+  color: $color-808fa5;
+  font-family: $helvetica;
+  font-size: $size-938Rem;
+  line-height: 22px;
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  .container {
+    max-width: 98%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .subHeading {
+    font-size: $size14;
+  }
+}

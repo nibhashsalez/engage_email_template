@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_OrgChart_F</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+        <filter x="-36.7%" y="-30.0%" width="173.3%" height="173.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.874509804   0 0 0 0 0.874509804   0 0 0 0 0.874509804  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="DG_NewFeatures-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-225.000000, -1739.000000)">
+        <g id="3-copy" transform="translate(239.000000, 1588.000000)">
+            <g id="Content" transform="translate(0.000000, 161.000000)">
+                <g id="ic_OrgChart_F">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#9013FE" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <circle stroke="#FFFFFF" stroke-width="2" cx="30" cy="30" r="31"></circle>
+                    </g>
+                    <path d="M41.6326531,35.6840816 L41.6326531,29.3877551 L31.8367347,29.3877551 L31.8367347,25.5404082 C33.9428571,24.9930612 35.5102041,23.0914286 35.5102041,20.8163265 C35.5102041,18.115102 33.3134694,15.9183673 30.6122449,15.9183673 C27.9110204,15.9183673 25.7142857,18.115102 25.7142857,20.8163265 C25.7142857,23.0914286 27.2816327,24.9930612 29.3877551,25.5404082 L29.3877551,29.3877551 L19.5918367,29.3877551 L19.5918367,35.6840816 C17.4857143,36.2314286 15.9183673,38.1330612 15.9183673,40.4081633 C15.9183673,43.1093878 18.115102,45.3061224 20.8163265,45.3061224 C23.517551,45.3061224 25.7142857,43.1093878 25.7142857,40.4081633 C25.7142857,38.1330612 24.1469388,36.2314286 22.0408163,35.6840816 L22.0408163,31.8367347 L39.1836735,31.8367347 L39.1836735,35.6840816 C37.077551,36.2314286 35.5102041,38.1330612 35.5102041,40.4081633 C35.5102041,43.1093878 37.7069388,45.3061224 40.4081633,45.3061224 C43.1093878,45.3061224 45.3061224,43.1093878 45.3061224,40.4081633 C45.3061224,38.1330612 43.7387755,36.2314286 41.6326531,35.6840816 Z M28.1632653,20.8163265 C28.1632653,19.4657143 29.2616327,18.3673469 30.6122449,18.3673469 C31.9628571,18.3673469 33.0612245,19.4657143 33.0612245,20.8163265 C33.0612245,22.1669388 31.9628571,23.2653061 30.6122449,23.2653061 C29.2616327,23.2653061 28.1632653,22.1669388 28.1632653,20.8163265 Z M23.2653061,40.4081633 C23.2653061,41.7587755 22.1669388,42.8571429 20.8163265,42.8571429 C19.4657143,42.8571429 18.3673469,41.7587755 18.3673469,40.4081633 C18.3673469,39.057551 19.4657143,37.9591837 20.8163265,37.9591837 C22.1669388,37.9591837 23.2653061,39.057551 23.2653061,40.4081633 Z M40.4081633,42.8571429 C39.057551,42.8571429 37.9591837,41.7587755 37.9591837,40.4081633 C37.9591837,39.057551 39.057551,37.9591837 40.4081633,37.9591837 C41.7587755,37.9591837 42.8571429,39.057551 42.8571429,40.4081633 C42.8571429,41.7587755 41.7587755,42.8571429 40.4081633,42.8571429 Z" id="ic_hierarchy" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

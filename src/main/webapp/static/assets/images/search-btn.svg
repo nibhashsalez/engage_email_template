@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_search@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="DG_Home_New-landing_2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-940.000000, -92.000000)">
+        <g id="header" transform="translate(-2.000000, -5.000000)" fill="#0188CF">
+            <g id="Header-tabs-Copy-2" transform="translate(2.000000, 25.000000)">
+                <g id="Top-part_header" transform="translate(69.000000, 8.000000)">
+                    <g id="search-bar-copy" transform="translate(314.000000, 46.000000)">
+                        <g id="Group-2" transform="translate(557.000000, 18.000000)">
+                            <path d="M9.15754882,1.89473061 C13.1800619,1.89473061 16.420367,5.13535153 16.420367,9.15754882 C16.420367,13.1797461 13.1800619,16.420367 9.15754882,16.420367 C5.13535153,16.420367 1.89473061,13.1797461 1.89473061,9.15754882 C1.89473061,5.13535153 5.13535153,1.89473061 9.15754882,1.89473061 M9.15754882,0 C4.11124963,0 0,4.11124963 0,9.15754882 C0,14.203848 4.11124963,18.3150976 9.15754882,18.3150976 C11.342489,18.3150976 13.3540613,17.5461528 14.9304772,16.2624728 L22.380558,23.7226588 C22.7503462,24.0924471 23.3528705,24.0924471 23.7226588,23.7226588 C24.0924471,23.3528705 24.0924471,22.7503462 23.7226588,22.380558 L16.2624728,14.9301614 C17.5461528,13.3537455 18.3150976,11.342489 18.3150976,9.15754882 C18.3150976,4.11124963 14.203848,0 9.15754882,0" id="ic_search"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+#gjs {
+  border: none;
+}
+
+.gjs-one-bg {
+  background-color: #fff;
+}
+
+.gjs-two-color {
+  color: rgba(76, 76, 76, 0.7);
+}
+
+.gjs-comp-selected {
+  outline: 1px solid #3b97e3 !important;
+  outline-offset: -1px;
+}
+
+.gjs-three-bg {
+  background-color: #ec5896;
+  color: white;
+}
+
+.gjs-four-color,
+.gjs-four-color-h:hover {
+  color: #ec5896;
+}

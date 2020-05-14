@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53 (72520) - https://sketchapp.com -->
+    <title>7ADA294D-AD18-4C10-82D0-1B3FD32AF326</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#58399C" offset="0%"></stop>
+            <stop stop-color="#C16476" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Import" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Import_CSV_step-1-c" transform="translate(-484.000000, -362.000000)" fill-rule="nonzero">
+            <g id="Select-an-object" transform="translate(474.000000, 233.000000)">
+                <g id="Contacts" transform="translate(0.000000, 83.000000)">
+                    <g id="ic_contacts" transform="translate(8.000000, 44.000000)">
+                        <g id="ic_contact-copy">
+                            <rect id="Rectangle" fill="#000000" opacity="0" x="0" y="0" width="40" height="40"></rect>
+                            <path d="M3.50676604,36.5 L36.493234,36.5 C36.4977415,36.3686921 36.5,36.2371054 36.5,36.1052632 C36.5,28.6247874 29.1643149,22.4473684 20,22.4473684 C10.8356851,22.4473684 3.5,28.6247874 3.5,36.1052632 C3.5,36.2371054 3.50225851,36.3686921 3.50676604,36.5 Z M19.3913043,16.5 C22.9811552,16.5 25.8913043,13.5898509 25.8913043,10 C25.8913043,6.41014913 22.9811552,3.5 19.3913043,3.5 C15.8014535,3.5 12.8913043,6.41014913 12.8913043,10 C12.8913043,13.5898509 15.8014535,16.5 19.3913043,16.5 Z" id="ic_contacts" stroke="url(#linearGradient-1)" stroke-width="3"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

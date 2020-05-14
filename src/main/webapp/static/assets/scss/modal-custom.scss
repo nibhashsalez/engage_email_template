@@ -1,0 +1,123 @@
+@import 'variables';
+
+.modal {
+  text-align: center;
+  padding: 0 !important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.modal-dialog {
+  min-width: 500px;
+  &.modal-lg {
+    min-width: 950px;
+  }
+  .modal-content {
+    border-color: #dedede;
+    @include border-radius(0.5rem);
+    min-height: 150px;
+    border: none !important;
+    .modal-header {
+      border-bottom: 0;
+      padding: 30px;
+      padding-bottom: 0;
+      h4 {
+        color: $color-0155ff;
+
+        font-size: $size20;
+        font-weight: bold;
+      }
+      .close {
+        padding: 4px 10px 4px;
+        margin: -6px -6px -6px auto;
+        border: 1px solid $color-808fa5;
+        opacity: 1;
+        border-radius: 50%;
+        cursor: pointer;
+        &:hover {
+          color: $color-808fa5;
+        }
+      }
+    }
+    .modal-body {
+      padding: 30px;
+      padding-top: 0;
+      h4 {
+        color: $color-1e2533;
+
+        font-size: $size20;
+        font-weight: bold;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+// .contactUsModal {
+//   .modal-dialog .modal-content {
+//     border-color: transparent !important;
+//     border: none !important;
+//     background: transparent !important;
+//   }
+// }
+
+@media screen and (max-width: 768px) {
+  .modal {
+    z-index: 9999991050 !important;
+  }
+  .modal-dialog {
+    min-width: 0;
+    .modal-content {
+      border-radius: 10px !important;
+    }
+  }
+  .modal.show .modal-dialog {
+    width: 94%;
+  }
+  .modal-dialog .modal-content .modal-header {
+    padding: 20px 10px 5px;
+  }
+  .modal-dialog .modal-content .modal-body {
+    padding: 0 10px 20px;
+  }
+  .modal-dialog .modal-content .modal-header h4 {
+    font-size: $size1Rem;
+  }
+  .modal-dialog .modal-content .modal-header .close {
+    border-radius: 4px;
+  }
+  .modal-dialog .modal-content .modal-body h4 {
+    font-size: $size1Rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-lg {
+    max-width: 950px;
+  }
+}
+
+.modal-backdrop.show {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  .modal-dialog.modal-lg {
+    min-width: 0;
+  }
+  .modal-content {
+    border-color: transparent !important;
+  }
+}

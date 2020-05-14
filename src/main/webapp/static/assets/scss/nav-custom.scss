@@ -1,0 +1,21 @@
+.navbar{
+    padding: 0;    
+    transform: translateY(0%);
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+    opacity:1;
+    height: auto;
+    z-index: 1;
+    &.fixed{
+        transform: translateY(-30%);
+        transition-timing-function: ease-out;        
+        opacity:0;
+        height: 0;
+        margin-bottom: 0!important;
+        padding-top: 0px!important;
+    }
+    &.paddingTopHeader{
+        padding-top: 5px;
+        padding-bottom: 2px;
+    }
+}

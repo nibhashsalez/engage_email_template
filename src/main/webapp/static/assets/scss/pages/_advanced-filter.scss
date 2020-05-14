@@ -1,0 +1,196 @@
+@import 'mixins';
+@import 'variables';
+
+a {
+  color: $color-0155ff;
+}
+
+.advance-filter {
+  background-color: $color-ffffff;
+  min-height: 150px;
+  padding-bottom: 60px;
+}
+
+.filterBg {
+  padding: 20px;
+  @include backShadow;
+  .filterSection {
+    input[type='radio'],
+    input[type='checkbox'] {
+      width: 0;
+    }
+    .filterBoxBg {
+      padding: 20px 20px 15px;
+      height: 300px;
+      @include backShadow;
+      &.half {
+        height: auto;
+        max-height: 270px;
+      }
+      &.big {
+        height: auto !important;
+        min-height: 270px;
+        max-height: 510px;
+      }
+    }
+    .filterBox {
+      background-color: $color-ffffff;
+      padding: 6px;
+      width: 33.333%;
+      float: left;
+      .filterBoxHead {
+        margin-bottom: 5px;
+        line-height: 18px;
+        .title {
+          color: $color-1e2533;
+          font-size: $size14;
+          font-weight: bold;
+          line-height: 17px;
+        }
+        .selectAll {
+          color: $color-808fa5;
+          font-size: $size12;
+          line-height: 14px;
+          .custom-control {
+            vertical-align: middle;
+            margin-left: 5px;
+          }
+        }
+      }
+      .checkInputGroup {
+        height: 200px;
+        .checkInput {
+          margin-top: 7px;
+          padding-right: 2px;
+          .checkLbl {
+            color: $color-1e2533;
+            font-size: $size-75Rem;
+            line-height: 16px;
+            float: left;
+            width: 85%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+        .filtersListContainerWithToggle {
+          padding: 5px 0;
+          .minusPlus {
+            width: 100%;
+          }
+          ul {
+            padding: 0;
+            margin: 0;
+            width: 29%;
+            float: left;
+            margin-right: 6.5%;
+            &:nth-child(3n) {
+              margin-right: 0;
+            }
+            li {
+              list-style: none;
+              width: 100%;
+              display: block;
+            }
+          }
+        }
+      }
+    }
+    .btn-secondary {
+      border: 1px solid $color-808fa5;
+      border-radius: 25px;
+      background-color: $color-dcdfe7;
+      color: $color-1e2533;
+      font-size: $size12;
+      line-height: 14px;
+      padding: 7px 14px;
+      margin-left: 10px;
+      img {
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-top: -4px;
+      }
+      &:hover {
+        background: $color-ffffff;
+      }
+    }
+    .btn-primary {
+      border-radius: 25px;
+      background-color: $color-0155ff;
+      color: $color-ffffff;
+      font-size: $size12;
+      line-height: 14px;
+      padding: 7px 14px;
+      margin-left: 10px;
+      border: 1px solid $color-0155ff;
+      &:hover {
+        color: $color-0155ff;
+        background: $color-ffffff;
+      }
+    }
+    .btn-close {
+      border-radius: 25px;
+      background-color: $color-ffffff;
+      color: $color-808fa5;
+      font-size: $size12;
+      line-height: 14px;
+      padding: 7px 14px;
+      margin-left: 10px;
+      border: 1px solid $color-808fa5;
+      &:hover {
+        background-color: $color-dcdfe7;
+        color: $color-1e2533;
+      }
+    }
+    .filterHeader,
+    .filterFooter {
+      margin-bottom: 20px;
+      h3 {
+        color: $color-1e2533;
+        font-size: $size24;
+        font-weight: bold;
+        line-height: 29px;
+      }
+    }
+    .filterFooter {
+      margin-bottom: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .filterBg {
+    padding: 10px;
+    .filterSection {
+      .filterHeader {
+        h3 {
+          font-size: $size1-125Rem;
+        }
+      }
+      .btn-primary,
+      .btn-secondary,
+      .btn-closes {
+        border-radius: 4px;
+        padding: 7px $size12;
+      }
+      .btn-secondary {
+        margin-left: 0;
+      }
+      .filterBox {
+        width: 100%;
+        .checkInputGroup {
+          .filtersListContainerWithToggle {
+            ul {
+              width: 100%;
+              height: 170px;
+            }
+          }
+        }
+      }
+      .filterBoxBg {
+        height: auto;
+        padding: 10px;
+      }
+    }
+  }
+}

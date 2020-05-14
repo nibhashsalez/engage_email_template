@@ -1,0 +1,150 @@
+// font size
+$font9: 9px;
+$font10: 10px;
+$font11: 11px;
+$font12: 12px;
+$font13: 13px;
+$font14: 14px;
+$font15: 15px;
+$font16: 16px;
+$font17: 17px;
+$font18: 18px;
+$font20: 20px;
+$font22: 22px;
+$font24: 24px;
+$font30: 30px;
+$font34: 34px;
+$font36: 36px;
+$font38: 38px;
+$font39: 39px;
+$size11:11px;
+$size12:12px;
+$size13:13px;
+$size14:14px;
+$size15:15px;
+$size20:20px;
+$size24:24px;
+
+
+$blue-subTitle: #99BBFF;
+$blue-E8EEFD: #E8EEFD;
+$blue-6771DC: #6771DC;
+$background-color-f7f8ff: #f7f8ff;
+$tabBgColor: #E5E8ED;
+//font weight
+$font-weight--normal: normal;
+$font-weight--thin         		: 100;
+$font-weight--light        		: 300;
+$font-weight--medium        	: 400;
+$font-weight600                 : 600;
+$font-weight--bold          	: 500;
+$font-weight--ultra-bold    	: 900;
+$box-shadow: 0 2px 20px 0 rgba(0,0,0,.05);
+$border-1px-solid-CCDDFF: 1px solid #CCDDFF;
+
+
+.cardShadowBorder{
+    @extend .backShadow;
+    .listShadowBorder{box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.05)!important; /* border: 1px solid #eee!important; */}
+.listBorder{border: 1px solid #fff!important;}
+}
+
+
+// new variable and common css here
+
+// grey
+
+$color-CCDDFF:#CCDDFF;
+$color-1e2533:#1e2533;
+$color-808fa5:#808fa5;
+$color-6699ff:#6699ff;
+$color-0155ff:#0155ff;
+$color-9dcaff:#9dcaff;
+$color-ffffff:#ffffff;
+$color-7ed321:#7ed321;
+$color-d0021b:#d0021b;
+$color-ff6b6b:#ff6b6b;
+$color-f8bd5c:#f8bd5c;
+$color-4ecdc4:#4ecdc4;
+$color-seagreen:seagreen;
+
+$color-9013fe:#9013fe;
+$color-ca98f5:#ca98f5;
+$color-b3bcc9:#b3bcc9;
+$color-e8e8e8:#e8e8e8;
+$color-dae9ff:#dae9ff;
+$color-eee:#eee;
+$color-ddd:#ddd;
+$color-666:#666;
+$color-dcdfe7:#dcdfe7;
+$color-e7ebf2:#e7ebf2;
+$color-dbeaff:#dbeaff;
+$color-ecf4ff:#ecf4ff;
+$color-f9f9fb:#f9f9fb;
+$color-f8f8f8:#f8f8f8;
+$color-EBFFD7:#EBFFD7;
+$color-f6faff:#f6faff;
+$color-f6f7f8:#f6f7f8;
+$color-f3f3f3:#f3f3f3;
+$color-f5f8ff:#f5f8ff;
+$color-f1f1f1:#f1f1f1;
+$color-E8EAEF:#E8EAEF;
+$color-efeeea:#efeeea;
+$color-ffffffb3:#ffffffb3;
+$color-e6eeff:#e6eeff;
+$sohoGothicProExtraBold: "SohoGothicProExtraBold";
+$sohoGothicProMedium: "SohoGothicProMedium";
+$sohoGothicPro: "SohoGothicPro";
+$halvetica: "Helvetica";
+
+
+$headingfontFamily:'SohoGothicProExtraBold';
+$sohoProMedium: 'SohoGothicProMedium';
+$halvetica:'Helvetica';
+
+
+$footertextcolor:#1E2533;
+$menuIconBg:#1e2533;
+
+
+
+.backShadow{
+    border: 1px solid $color-dbeaff;
+    border-radius: 4px;
+    background-color:$color-ffffff;
+    box-shadow: 0 2px 10px 0 $color-ecf4ff;
+    -webkit-transition: all .3s ease-out;
+      transition: all .3s ease-out;
+      -o-transition: all .3s ease-out;
+  }
+
+
+@mixin backShadowOnHover{
+    border: 1px solid $color-dbeaff;
+    border-radius: 4px;
+    background-color:$color-ffffff;
+    box-shadow: 0 10px 27px 0 $color-ecf4ff;
+    -webkit-transform: translate(0,-3px);
+    -ms-transform: translate(0,-3px);
+    transform: translate(0,-3px);
+}
+
+ .subheading{
+    color: $color-1e2533;
+    font-family: $headingfontFamily;
+    font-size: $size24;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+ }
+.styledInput{
+    .mat-form-field-appearance-outline {
+        .mat-form-field-outline-end{
+            border-radius: 0px 25px 25px 0px !important;
+        }
+    }
+}
+
+
+
+

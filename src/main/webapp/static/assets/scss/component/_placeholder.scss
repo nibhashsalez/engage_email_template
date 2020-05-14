@@ -1,0 +1,38 @@
+@import 'mixins';
+@import 'variables';
+.place-holder-container {
+  padding: 20px;
+  @include backShadow;
+  margin-bottom: 20px;
+  .profile_img {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: $color-f6f7f8;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 1000px 104px;
+    height: 64px;
+    width: 64px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 20px;
+    @include border-radius(2px);
+  }
+  .label {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: $color-f6f7f8;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 1000px 104px;
+    height: 10px;
+    @include border-radius(5px);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+}

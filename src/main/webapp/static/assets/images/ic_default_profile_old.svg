@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="60px" viewBox="0 0 54 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>793DAB5F-3900-4FD7-A8B7-126654248271</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="129.645915%" gradientTransform="translate(0.500000,0.000000),scale(0.417804,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#7A89A3" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="100%"></stop>
+        </radialGradient>
+        <path d="M50.8656716,44.3283582 C48.1791045,41.4626866 40.4776119,42.1791045 36.7164179,40.119403 C35.0149254,43.2537313 29.8208955,38.0746269 26.8656716,38.0746269 C23.9104478,38.0746269 18.7164179,43.2537313 17.0149254,40.119403 C13.2537313,42.0895522 5.64179104,41.3731343 2.86567164,44.3283582 C1.43283582,45.9402985 0.626865672,55.6119403 0.626865672,60 L53.1044776,60 C53.1044776,55.7014925 52.3880597,45.9402985 50.8656716,44.3283582 Z" id="path-2"></path>
+    </defs>
+    <g id="Home-screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Profile_with-White-Header-Copy" transform="translate(-174.000000, -355.000000)">
+            <g id="New-layout" transform="translate(27.000000, 229.000000)">
+                <g id="COmpany-Profile">
+                    <g id="Placeholder_Executive" transform="translate(120.000000, 101.000000)">
+                        <g id="executive_placeholder" transform="translate(27.000000, 25.000000)">
+                            <path d="M15.2238806,24.9850746 C18,31.6119403 23.2835821,35.1940299 26.8656716,35.1940299 C30.358209,35.1940299 35.1940299,31.7014925 38.0597015,25.1641791 C38.7761194,23.5522388 39.3134328,21.5820896 39.761194,19.5223881 C40.2089552,17.9104478 40.4776119,15.9402985 40.4776119,13.3432836 C40.4776119,6.53731343 34.3880597,0.805970149 26.8656716,0.805970149 C19.3432836,0.805970149 13.2537313,6.53731343 13.2537313,13.3432836 C13.2537313,15.1343284 13.3432836,16.6567164 13.6119403,17.9104478 C13.880597,20.4179104 14.4179104,23.0149254 15.2238806,24.9850746 Z" id="Shape" fill="#EFF5FF" fill-rule="nonzero"></path>
+                            <g id="Shape" fill-rule="nonzero">
+                                <use fill="#D0DAE8" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <use fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            </g>
+                            <polygon id="Path-3" fill="#9BA4B1" points="17 40 18.5 35.5 26.5 37.75 22.5 48.5"></polygon>
+                            <polygon id="Path-3-Copy" fill="#9BA4B1" transform="translate(31.750000, 42.000000) scale(-1, 1) translate(-31.750000, -42.000000) " points="27 40 28.5 35.5 36.5 37.75 32.5 48.5"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

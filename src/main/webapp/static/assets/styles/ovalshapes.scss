@@ -1,0 +1,27 @@
+@import "../../assets/styles/variables.scss";
+
+.genericOval {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 59% 63% 51% 74% / 57% 72% 54% 69%;
+  transform: rotate(0deg);
+  background-color: #1d1e1f;
+  background: linear-gradient(135.26deg, #2523ae 0%, #d76d6d 71.1%, #d76d6d 100%);
+  box-shadow: 5px 0 26px 0 #f7d2ff;
+}
+
+@mixin rotateOval($degree, $height, $width) {
+  -webkit-transform: rotate($degree);
+  -ms-transform: rotate($degree);
+  height: $height;
+  width: $width;
+}
+
+.r30Rotate100by100 {
+  @include rotateOval(30deg, 100px, 100px);
+}
+
+.r30Rotate100by100 {
+  @include rotateOval(30deg, 100px, 100px);
+}

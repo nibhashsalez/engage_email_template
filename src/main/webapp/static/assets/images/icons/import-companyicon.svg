@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53 (72520) - https://sketchapp.com -->
+    <title>935CCCD1-677A-4D39-B52C-A31F0F37B78E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#58399C" offset="0%"></stop>
+            <stop stop-color="#C16476" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.28%" y1="0%" x2="50.7488%" y2="100.999999%" id="linearGradient-2">
+            <stop stop-color="#58399C" offset="0%"></stop>
+            <stop stop-color="#C16476" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-3">
+            <stop stop-color="#2523AE" offset="0%"></stop>
+            <stop stop-color="#D76D6D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="7.3964497%" y1="0%" x2="94.3076907%" y2="100.999999%" id="linearGradient-4">
+            <stop stop-color="#58399C" offset="0%"></stop>
+            <stop stop-color="#C16476" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Import" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Import_CSV_step-1-b" transform="translate(-708.000000, -360.000000)">
+            <g id="Select-an-object" transform="translate(474.000000, 233.000000)">
+                <g id="Multiple" transform="translate(220.000000, 83.000000)">
+                    <g id="Group" transform="translate(14.000000, 44.000000)">
+                        <g id="ic_multiple">
+                            <g id="ic_company-copy">
+                                <rect id="Rectangle" fill="#FFFFFF" opacity="0" x="0" y="0" width="40" height="40"></rect>
+                                <g id="Group" fill-rule="nonzero">
+                                    <g id="Group-7" transform="translate(22.000000, 10.000000)" stroke="#6B828B" stroke-width="3">
+                                        <rect id="Rectangle-7-Copy" transform="translate(7.500000, 15.000000) scale(-1, 1) translate(-7.500000, -15.000000) " x="1.5" y="1.5" width="12" height="27"></rect>
+                                        <path d="M7.5,11.5 L9,11.5 L7.5,10 L7.5,11.5 Z M7.5,12.5 L7.5,14 L9,12.5 L7.5,12.5 Z M6.5,12.5 L5,12.5 L6.5,14 L6.5,12.5 Z M6.5,11.5 L6.5,10 L5,11.5 L6.5,11.5 Z" id="Rectangle-8-Copy-4"></path>
+                                        <path d="M7.5,17.5 L9,17.5 L7.5,16 L7.5,17.5 Z M7.5,18.5 L7.5,20 L9,18.5 L7.5,18.5 Z M6.5,18.5 L5,18.5 L6.5,20 L6.5,18.5 Z M6.5,17.5 L6.5,16 L5,17.5 L6.5,17.5 Z" id="Rectangle-8-Copy-5"></path>
+                                    </g>
+                                    <g id="Group-6" transform="translate(2.000000, 10.000000)" stroke="#6B828B" stroke-width="3">
+                                        <rect id="Rectangle-7-Copy-2" transform="translate(8.000000, 15.000000) scale(-1, 1) translate(-8.000000, -15.000000) " x="1.5" y="1.5" width="13" height="27"></rect>
+                                        <path d="M8.5,11.5 L10,11.5 L8.5,10 L8.5,11.5 Z M8.5,12.5 L8.5,14 L10,12.5 L8.5,12.5 Z M7.5,12.5 L6,12.5 L7.5,14 L7.5,12.5 Z M7.5,11.5 L7.5,10 L6,11.5 L7.5,11.5 Z" id="Rectangle-8-Copy-11"></path>
+                                        <path d="M8.5,17.5 L10,17.5 L8.5,16 L8.5,17.5 Z M8.5,18.5 L8.5,20 L10,18.5 L8.5,18.5 Z M7.5,18.5 L6,18.5 L7.5,20 L7.5,18.5 Z M7.5,17.5 L7.5,16 L6,17.5 L7.5,17.5 Z" id="Rectangle-8-Copy-10"></path>
+                                    </g>
+                                    <path d="M9.5,5.5 L9.5,38.5 L30.5,38.5 L30.5,5.5 L9.5,5.5 Z M20,38.5 L40,38.5 L38.5,37 L38.5,40 L40,38.5 L20,38.5 Z M20,38.5 L0,38.5 L1.5,40 L1.5,37 L0,38.5 L20,38.5 Z M19.5,2 L19.5,4 L21,2.5 L18,2.5 L19.5,4 L19.5,2 Z M19.5,2 L19.5,0 L18,1.5 L21,1.5 L19.5,0 L19.5,2 Z" id="Combined-Shape" stroke="url(#linearGradient-1)" stroke-width="3" fill="#FFFFFF"></path>
+                                    <path d="M30.5,24.5 L30.5,37 L32,35.5 L29,35.5 L30.5,37 L30.5,24.5 Z M30.5,24.5 L30.5,12 L29,13.5 L32,13.5 L30.5,12 L30.5,24.5 Z" id="Rectangle-8-Copy-9" stroke="url(#linearGradient-2)" stroke-width="3"></path>
+                                    <path d="M14,12 L18,12 L18,16.8 L14,16.8 L14,12 Z M14,19.2 L18,19.2 L18,24 L14,24 L14,19.2 Z M22,12 L26,12 L26,16.8 L22,16.8 L22,12 Z M22,19.2 L26,19.2 L26,24 L22,24 L22,19.2 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+                                    <path d="M15.5,27.6538462 L15.5,37.6538462 L24.5,37.6538462 L24.5,27.6538462 L15.5,27.6538462 Z" id="Rectangle-9" stroke="url(#linearGradient-4)" stroke-width="3" fill="#FFFFFF"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

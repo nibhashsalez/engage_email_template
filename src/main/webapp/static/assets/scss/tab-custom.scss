@@ -1,0 +1,283 @@
+.detailsTab {
+  ul {
+    li {
+      list-style: none;
+      display: inline-block;
+      a {
+        padding: 8px 15px;
+        border-right: 1px solid $color-ffffff;
+        @include border-radius(2px);
+        background-color: $color-dcdfe7;
+        color: $color-808fa5;
+        font-size: $size12;
+        font-weight: bold;
+        font-family: $sohoGothicPro;
+        text-transform: uppercase;
+        &.active,
+        &.active:hover {
+          color: $color-1e2533 !important;
+          text-decoration: none;
+        }
+        &#tab-selectbyid2 {
+          border: 1px solid $color-dbeaff !important;
+          border-left: none !important;
+        }
+        &#tab-selectbyid3.active {
+          border: 1px solid $color-dbeaff !important;
+          border-right: none !important;
+          border-top-left-radius: 4px !important;
+        }
+        &:hover {
+          color: $color-0155ff !important;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .blueColor {
+    word-break: break-all;
+    color: $color-808fa5 !important;
+    &:hover {
+      color: $color-1e2533 !important;
+    }
+  }
+  .nav-tabs {
+    border: 0;
+  }
+  .nav-tabs .nav-link.active {
+    color: $color-1e2533;
+  }
+  .nav-tabs .nav-link {
+    @include border-radius(0);
+    border: 0;
+    border-right: 1px solid $color-ffffff;
+  }
+  .nav-tabs .nav-link:focus,
+  .nav-tabs .nav-link:hover {
+    color: $color-1e2533;
+    @include border-radius(0); //background-color: #fff;
+  }
+}
+
+.listingTab {
+  .nav-tabs {
+    .nav-link {
+      letter-spacing: 1px !important;
+      padding: 5px 20px !important;
+      color: $color-b3bcc9;
+      font-size: $size-75Rem;
+    }
+  }
+  .nav-tabs .nav-link.active {
+    color: $color-1e2533;
+  }
+}
+
+.jobsTab {
+  padding-top: 90px;
+  .nav-link {
+    color: $color-808fa5;
+    font-size: $size12;
+    font-weight: bold;
+    line-height: 14px;
+    text-transform: uppercase;
+    padding: 0 60px 0 0;
+  }
+  .nav-pills .nav-link.active,
+  .show > .nav-pills .nav-link {
+    background-color: transparent;
+    color: $color-0155ff;
+  }
+}
+
+.listViewWrapper {
+  .detailsTab {
+    margin-top: 40px;
+    ul {
+      border: 0;
+      width: 130px;
+      float: left;
+      li {
+        display: inline-block;
+        width: 100%;
+        a {
+          display: block;
+          border: 0 !important;
+          background-color: transparent;
+          color: $color-808fa5;
+          font-size: $size12;
+          font-weight: bold;
+          line-height: 20px;
+          &.active {
+            background-color: transparent;
+            border: 0;
+            color: $color-1e2533;
+          }
+          &:hover,
+          &:focus {
+            border: 0;
+            color: $color-1e2533;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+    .filter-details {
+      min-height: 250px;
+    }
+  }
+  .tab-content {
+    padding-left: 130px;
+  }
+}
+
+.advancedFeatureTab {
+  border-top: 1px solid #e9ebec;
+  padding: 60px 0 0;
+  h2 {
+    color: $color-1e2533;
+    font-family: $sohoGothicPro;
+    font-size: $size1Rem;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+  .tabset {
+    display: flex;
+    min-height: 530px;
+    ul {
+      border-bottom: none;
+      max-width: 530px;
+      display: block;
+      margin-top: 10%;
+      height: fit-content;
+      li {
+        a {
+          color: $color-1e2533;
+          font-size: $size1-5Rem;
+          opacity: 0.5;
+          border-color: transparent !important;
+          &.active {
+            opacity: 1;
+            .desc {
+              display: block;
+              color: $color-808fa5;
+              font-size: $size1Rem;
+              line-height: 22px;
+              margin-left: 25px;
+            }
+          }
+          .viewAllBtn {
+            margin: 20px 0 0 25px;
+            opacity: 1;
+            display: initial;
+            padding: 0.438rem 0.75rem;
+            text-align: center;
+            border: 1px solid $color-0155ff;
+            color: $color-0155ff;
+            border-color: $color-0155ff !important;
+            text-transform: uppercase;
+            border-radius: 18px;
+            font-family: $sohoGothicPro;
+            font-size: $size-8Rem;
+            line-height: 20px;
+            transition: all 0.3s, box-shadow 0.3s 0.3s;
+            text-decoration: none;
+            &:hover {
+              border: 1px solid transparent;
+              background-color: $color-0155ff;
+              color: $color-ffffff !important;
+            }
+          }
+          img {
+            float: left;
+            margin: 12px 10px 0 0;
+          }
+          .desc {
+            display: none;
+          }
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+      li:last-child {
+        a {
+          opacity: 1;
+        }
+      }
+    }
+    .tab-content {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+.client_page {
+  .justify-content-start {
+    margin: auto;
+    border-bottom: 0;
+    display: block;
+    li {
+      display: inline-block;
+      a {
+        color: $color-808fa5;
+        font-size: $size24;
+        font-weight: bold;
+        line-height: 29px;
+        text-align: center;
+        &.active {
+          border-bottom: 2px solid $color-1e2533 !important;
+          border-radius: 1px;
+        }
+      }
+    }
+  }
+}
+
+.client_page {
+  .justify-content-start {
+    margin: auto;
+    border-bottom: 0;
+    display: block;
+    @media screen and (max-width: 768px) {
+      .detailsTab {
+        ul {
+          li {
+            a {
+              padding: 8px 9px;
+            }
+          }
+        }
+      }
+    }
+    @media screen and (min-width: 768px) {
+      .detailsTab {
+        .nav-tabs {
+          .nav-link {
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .advancedFeatureTab {
+    .tabset {
+      min-height: 420px;
+      ul {
+        max-width: 430px;
+      }
+      .tab-content {
+        width: 60%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

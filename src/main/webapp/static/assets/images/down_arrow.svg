@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow1@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DG_Home_Blue" transform="translate(-320.000000, -1156.000000)" fill="#FFFFFF">
+            <g id="Advance-Search-panel" transform="translate(0.000000, 768.000000)">
+                <g id="arrow1" transform="translate(320.000000, 388.000000)">
+                    <path d="M21.4827593,12.0520979 C22.0804513,11.4586751 22.076792,10.4950492 21.4778802,9.90345603 L11.8397912,0.379416474 C10.6901489,-0.770835742 8.96538047,0.953932692 10.1156327,2.10418491 L17.3562447,9.34601672 C17.5965413,9.58570343 17.5172556,9.78025828 17.1812063,9.78025828 L1.21977966,9.78025828 C0.545851396,9.78025828 0,10.3261097 0,11.0000379 C0,11.6733563 0.545851396,12.2198176 1.21977966,12.2198176 L17.1812063,12.2198176 C17.5178655,12.2198176 17.6014204,12.4094933 17.3562447,12.654669 L10.1156327,19.895891 C8.96538047,21.0455333 10.6901489,22.7709116 11.8397912,21.6206594 L21.4827593,12.0520979 Z" id="Fill-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+@import '../../../../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '~nouislider/distribute/nouislider.min.css';
+@import 'common';
+@import 'mixins';
+@import 'screen';
+@import 'static';
+@import 'variables';
+@import 'common-slider';
+@import 'accordion-custom';
+@import 'tab-custom';
+@import 'form-custom';
+@import 'nav-custom';
+@import 'pagination-custom';
+@import 'modal-custom';
+@import 'animation';
+@import 'side-menu';
+@import 'material-custom.scss';
+@import 'button.scss';
+@import 'heading.scss';
+@import 'dialog.scss';
+@import 'scrollbar.scss';
+@import './component/list-header';
+@import './component/filter-search';
+@import './component/sidebar-list';
+@import './component/placeholder';
+@import './pages/advanced-filter';
+@import './component/table-list';
+
+html {
+  top: 0 !important;
+}

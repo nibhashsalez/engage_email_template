@@ -1,0 +1,97 @@
+.searchListTable,
+.radiusPagination,
+.compititorPagination,
+.map-list,
+.tabHistory {
+  .pagination {
+    // border: 0;
+    width: auto;
+    float: inherit;
+    padding: inherit;
+    .page-item {
+      margin: 0 2px;
+      .page-link {
+        // border: 0;
+        color: $color-1e2533;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 14px;
+        padding: 0.5rem 0.75rem;
+        margin-bottom: 0;
+        background-color: $color-ffffff;
+        border-right: 1px solid $color-dcdfe7;
+        border-radius: 4px;
+      }
+      &.active {
+        .page-link {
+          background-color: $color-1e2533;
+          border-color: $color-1e2533;
+          @include border-radius(4px);
+          color: $color-ffffff;
+        }
+      }
+      &:last-child,
+      &:first-child {
+        // border: 1px solid #DCDFE7;
+        .page-link {
+          margin-left: 0;
+        }
+        &.disabled {
+          .page-link {
+            color: $color-808fa5;
+          }
+        }
+      }
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.ngx-pagination {
+  .disabled {
+    padding: 0.5rem 0.75rem !important;
+  }
+  li {
+    color: $color-1e2533 !important;
+    font-family: Helvetica !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    line-height: 14px !important;
+    margin: 0 2px !important;
+    border: 1px solid #dee2e6 !important;
+    border-radius: 4px !important;
+  }
+  a {
+    color: $color-1e2533 !important;
+    font-family: Helvetica !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    line-height: 14px !important;
+    padding: 0.5rem 0.75rem !important;
+    margin-bottom: 0 !important;
+    background-color: $color-ffffff !important;
+    border-radius: 4px !important;
+  }
+  .current {
+    padding: 0.5rem 0.75rem !important;
+    background-color: $color-1e2533 !important;
+    border-color: $color-1e2533 !important;
+    @include border-radius(4px);
+    color: $color-ffffff !important;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .searchListTable  {
+    .pagination {
+      width: 97% !important;
+    }
+  }
+}

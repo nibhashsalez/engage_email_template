@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>ic_Draft Status</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Campaign-Flow_LOGIN-to-Send-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Campaign_landing-Copy" transform="translate(-43.000000, -221.000000)">
+            <g id="Campaigns-Tabs" transform="translate(25.000000, 129.000000)">
+                <g id="Campaigns">
+                    <g id="ic_Draft-Status" transform="translate(17.000000, 91.000000)">
+                        <g id="Group" transform="translate(1.000000, 1.000000)">
+                            <path d="M1,1 L1,9.66666667 L14,9.66666667 L10.75,5.33333333 L14,1 L1,1 Z" id="Rectangle" stroke="#6771DC" stroke-width="2"></path>
+                            <rect id="Rectangle" fill="#6771DC" x="0" y="0" width="2" height="16" rx="1"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

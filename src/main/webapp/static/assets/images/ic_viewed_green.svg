@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="18px" viewBox="0 0 31 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>CA976182-9E4E-46AC-BBBE-6AC89A82E2D0</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Executive-Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-872.000000, -417.000000)">
+            <g id="email_final" transform="translate(871.000000, 416.000000)">
+                <g id="email_normal" transform="translate(1.000000, 1.000000)">
+                    <rect id="bg" fill="#CECFD6" fill-rule="nonzero" x="0" y="0" width="23.8608696" height="17.0434783"></rect>
+                    <polygon id="triangle_3_" fill="#4A4A4A" fill-rule="nonzero" points="0 17.0434783 11.9304348 6.13565217 23.8608696 17.0434783"></polygon>
+                    <polygon id="triangle_2_" fill="#BDC3CE" fill-rule="nonzero" points="0 17.0434783 11.9304348 6.74921739 23.8608696 17.0434783"></polygon>
+                    <polygon id="triangle_1_" fill="#4A4A4A" fill-rule="nonzero" points="23.8608696 0 11.9304348 10.9078261 0 0"></polygon>
+                    <polygon id="triangle" fill="#E7E7EF" fill-rule="nonzero" points="23.8608696 0 11.9304348 10.2942609 0 0"></polygon>
+                </g>
+                <g id="Group" transform="translate(19.000000, 4.000000)">
+                    <circle id="Oval" fill="#FFFFFF" cx="6.5" cy="6.5" r="6.5"></circle>
+                    <circle id="Oval-Copy" fill="#7ED321" cx="6.5" cy="6.5" r="5.31818182"></circle>
+                    <path d="M5.88941892,9.12733907 L9.32818631,5.56058678 C9.5010399,5.3653486 9.49593953,5.06110424 9.31664959,4.87240528 C9.13735965,4.68370632 8.8482857,4.67833829 8.66278259,4.86026312 L5.55671707,8.07685358 L4.53664062,7.00324419 C4.35332782,6.80757462 4.05401119,6.80535614 3.86809821,6.99828907 C3.68218523,7.191222 3.68007737,7.50624658 3.86339017,7.70191615 L5.21773782,9.12733907 C5.30747826,9.22192712 5.42972183,9.27434368 5.55671707,9.27268926 C5.68154012,9.27257361 5.80121065,9.22029216 5.88941892,9.12733907 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

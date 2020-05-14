@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SohoGothicProExtraBold';
+    src: url('SohoGothicProExtraBold.eot');
+    src: url('SohoGothicProExtraBold.eot') format('embedded-opentype'),
+         url('SohoGothicProExtraBold.woff2') format('woff2'),
+         url('SohoGothicProExtraBold.woff') format('woff'),
+         url('SohoGothicProExtraBold.ttf') format('truetype'),
+         url('SohoGothicProExtraBold.svg#SohoGothicProExtraBold') format('svg');
+}

@@ -1,0 +1,65 @@
+@import '../../assets/styles/variables.scss';
+
+body {
+  .ui-sidebar {
+    background-color: #1d1e1f !important;
+    padding: 0 !important;
+    background: linear-gradient(-45deg, #711bb6 20%, #4b45eb 100%) !important;
+    width: 100% !important;
+    max-width: 470px !important;
+    border: 0 !important;
+    .ui-sidebar-close {
+      font-weight: 300;
+      color: #fff;
+      position: absolute;
+      right: 25px;
+      top: 9px;
+      z-index: 9;
+      font-size: 30px;
+    }
+
+    h3 {
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 35px;
+      margin-bottom: 0;
+    }
+
+    .sidebarContent {
+      .sidebarHeader {
+        margin: 15px 30px;
+        max-height: 60px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+
+      .contentBody {
+        margin: 65px 0;
+        padding: 0 30px;
+        height: 100vh;
+        background-color: $color-ffffff;
+      }
+
+      .sidebarFooter {
+        background-color: $color-ffffff;
+        padding: 25px 20px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px){
+  body .ui-sidebar .sidebarContent .sidebarFooter input{
+          float: none !important;
+          display: block;
+          width: 100%;
+          margin-bottom: 10px;
+        }
+  }

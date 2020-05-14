@@ -1,0 +1,111 @@
+@import "../../assets/styles/variables.scss";
+
+input[type="button"] {
+  border: 0;
+  font-size: $font11;
+  font-weight: $font-weight--bold;
+  letter-spacing: 1.2px;
+  line-height: 14px;
+  padding: 8px 10px 6px;
+  margin: 0 5px;
+  cursor: pointer;
+  min-height: 38px;
+  border-radius: 35px;
+  text-transform: uppercase;
+}
+
+input[type="button"]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.primaryBtn {
+  border-radius: 35px !important;
+  background-color: #7123b6;
+  color: #fff;
+  min-width: 100px;
+  letter-spacing: 2.4px !important;
+}
+
+.primaryBtnPrl {
+  border-radius: 35px !important;
+  height: 38px;
+  background-color: $color-0155ff;
+  color: #fff;
+  min-width: 100px;
+  letter-spacing: 2.4px !important;
+}
+
+.secondaryBtn {
+  border-radius: 4px !important;
+  background-color: $color-ffffff;
+  color: #fff;
+  min-width: 100px;
+  letter-spacing: 2.4px !important;
+}
+
+.greyBorderBtn {
+  border: 1.3px solid $color-dbeaff !important;
+  border-radius: 35px !important;
+  background-color: transparent;
+  color: $color-808fa5;
+  letter-spacing: 2.4px !important;
+  min-width: 100px;
+}
+
+.redColorBtn {
+  border-radius: 35px !important;
+  background-color: #ae2323;
+  color: #fff;
+  min-width: 100px;
+  letter-spacing: 2.4px !important;
+}
+
+.purpleBorderBtn {
+  border: 1.3px solid #868ee9 !important;
+  border-radius: 35px !important;
+  background-color: transparent;
+  color: #868ee9;
+  letter-spacing: 2.4px !important;
+  min-width: 100px;
+}
+
+.button {
+  border: 0;
+  font-size: $font11;
+  font-weight: $font-weight--bold;
+  letter-spacing: 1.2px;
+  line-height: 14px;
+  padding: 8px 10px 6px;
+  margin: 0 5px;
+  min-height: 32px;
+  text-transform: uppercase;
+  color: #fff;
+  min-width: 100px;
+  border-radius: 4px !important;
+
+  .mat-icon {
+    font-size: $font14;
+    width: 20px;
+    height: 0px;
+  }
+
+  p {
+    float: right;
+    margin-bottom: 0;
+    margin-top: 2px;
+    margin-left: 4px;
+  }
+
+  p.leftlbl {
+    float: left;
+  }
+}
+
+.primaryBtn {
+  background-color: #7123b6;
+}
+
+.secondaryBtn {
+  background-color: $color-0155ff;
+}

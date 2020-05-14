@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="18px" viewBox="0 0 24 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>5B719B6C-9381-41E2-873D-40E76B40E3F9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="email_final" transform="translate(-1.000000, -1.000000)" fill-rule="nonzero">
+            <g id="email_normal" transform="translate(1.000000, 1.000000)">
+                <rect id="bg" fill="#CECFD6" x="0" y="0" width="23.8608696" height="17.0434783"></rect>
+                <polygon id="triangle_3_" fill="#4A4A4A" points="0 17.0434783 11.9304348 6.13565217 23.8608696 17.0434783"></polygon>
+                <polygon id="triangle_2_" fill="#BDC3CE" points="0 17.0434783 11.9304348 6.74921739 23.8608696 17.0434783"></polygon>
+                <polygon id="triangle_1_" fill="#4A4A4A" points="23.8608696 0 11.9304348 10.9078261 0 0"></polygon>
+                <polygon id="triangle" fill="#E7E7EF" points="23.8608696 0 11.9304348 10.2942609 0 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

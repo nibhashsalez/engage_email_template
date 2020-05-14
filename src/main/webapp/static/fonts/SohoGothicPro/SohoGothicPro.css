@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SohoGothicPro';
+    src: url('SohoGothicPro-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SohoGothicProMedium';
+    src: url('SohoGothicPro-Medium.otf') format('truetype');
+}
